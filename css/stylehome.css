@@ -1,0 +1,104 @@
+body{                       /*Costumizare body*/
+    margin: 0;
+    font-size: 20px;
+    background:linear-gradient(to left, #3437d1,  #ff0000);
+}
+header{                     /*Costumizare header*/
+    height: 70px;
+    background: linear-gradient(to right, #1c1d59, #3437d1);
+}
+header a{                                            /*Costumizare titlu*/
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 40px;
+    color: #ffffff;
+    font-size:50px;
+    text-decoration: none;
+}
+.menu ul{                                             /*Costumizare menu*/
+    background: linear-gradient(to left, #3437d1,  #ff0000);
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+.menu ul li a{
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.aboutsport{                                               /*Costumizare continut mijloc(pagina)*/
+    background-color: #ffffff;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.aboutsport .aboutsportul .firstdivlistinlist{             /*Costumizare poze*/
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.aboutsport h1{
+    margin-left: 100px;
+}
+.aboutsport p{
+    margin-left: 30px;
+}
+.aboutsportul{
+    margin-left: 60px;
+}
+h2{
+    margin-left: 60px;
+}
+.uldisc{
+    list-style-type: circle;
+    margin-left: 30px;
+}
+.notlastdiv{                                               /*Costumizare linie alba final*/
+    background-color: #ffffff;
+    height: 120px;
+    text-align: center;
+}
+.lastdiv{                                                  /*Costumizare linie albastra final*/
+    background:linear-gradient(to top, #1c1d59, #3437d1);
+    height: 100px;
+}
+.lastdiv a{
+    text-decoration: none;
+}
+.lastdiv a h1{
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+}
+.endcite{                                                  /*Costumizare ultima linie*/
+    height: 250px;
+    background: linear-gradient(to bottom, #1c1d59, #4f51b8);
+}
+.endcite ul li{
+    list-style: none;
+}
+.endcite ul li a{
+    text-decoration: none;
+    color: #292929;
+    opacity: 0.9;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.endcite ul li a:hover{
+    text-decoration: underline solid 2px;
+}
+.endcite p{
+    text-align: center;
+}

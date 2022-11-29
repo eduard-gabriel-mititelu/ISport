@@ -1,0 +1,147 @@
+body{                              /*Costumizare body*/
+    margin: 0;
+    font-size: 18px;
+    background-color: #f5f5f5;
+}
+header{                      /*Costumizare header*/
+    height: 70px;
+    background: linear-gradient(to right, #1c1d59, #3437d1);
+
+}
+header a{                                            /*Costumizare titlu*/
+    padding: 0;
+    margin-top: 0;
+    margin-left: 40px;
+    color: #ffffff;
+    font-size:50px;
+    text-decoration: none;
+}
+.menu ul{                                   /*Costumizare menu*/
+    background: linear-gradient(to left, #3437d1, #ff0000 );
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    
+}
+.menu ul li{
+    flex-grow: 1;
+}
+.menu ul li a{
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+.content{                                                                     /*Costumizare content*/
+    background-color: #ffffff;
+    height: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.content h1{
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.content h2{
+    margin-left: 80px;
+}
+.content .fotbal{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .handbal{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .baschet{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .tenis-de-masa{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .tenis-de-camp{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .badminton{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .schi{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .snowboarding{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .escaladare{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .box{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .judo{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content .karate{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lastdiv{                                                  /*Costumizare linie albastra final*/
+    background:linear-gradient(to top, #1c1d59, #3437d1);
+    height: 100px;
+}
+.lastdiv a{
+    text-decoration: none;
+}
+.lastdiv a h1{
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+}
+.endcite{                                                  /*Costumizare ultima linie*/
+    height: 250px;
+    background: linear-gradient(to bottom, #1c1d59, #4f51b8);
+}
+.endcite ul li{
+    list-style: none;
+}
+.endcite ul li a{
+    text-decoration: none;
+    color: #292929;
+    opacity: 0.9;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.endcite ul li a:hover{
+    text-decoration: underline solid 2px;
+}
+.endcite p{
+    text-align: center;
+}
